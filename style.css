@@ -1,0 +1,65 @@
+ h1 {
+        color :aquamarine;
+         margin-left:650px;
+
+ }
+  /** {
+        border: solid;
+}*/
+    
+.header{
+    background-color: chartreuse;
+    display:flex;
+    justify-content: space-between;
+}
+ 
+.menu{
+    margin-right: 200px;
+}
+.menu a{
+    margin-left:80px;
+}
+
+
+.games{
+    display:flex;
+    flex-wrap:wrap-reverse;
+    justify-content: space-evenly;
+}
+.vid{
+    display: flex ;
+    justify-content: flex-end;
+}
+
+h2,p{
+    text-align: center;
+}
+ 
+body{
+    background-color:#808080 ;
+    
+}
+a:link{
+       color: #35A5BB;
+}
+a:visited{
+    color:#35A5BB;
+}
+
+.items{
+    position: relative;
+}
+.items p{
+    position:absolute;
+    top:50%;
+    left:50%;
+  transform:translate(-50%,-50%);
+  opacity: 0;
+}
+.items:hover p{
+ opacity: 1;
+}
+.items:hover img{
+    opacity:0.33;
+}
+
